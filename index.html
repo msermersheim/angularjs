@@ -1,14 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="courseViewer">
 <head>
   <title>angularjs</title>
   <script src="node_modules/angular/angular.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 </head>
-<body ng-app="app">
+<body ng-cloak>
 
-  <repo />
+  <course-viewer-app />
   
-  <script type="text/javascript" src="index.js"></script>
-  <script type="text/javascript" src="components/app.js"></script>
+  <script src="index.js"></script>
+  <script src="components/course-viewer-app.js"></script>
+  <script src="components/user-status.component.js"></script>
+  <script src="components/main-navigator.component.js"></script>
+  <script src="components/home.component.js"></script>
 </body>
 </html>
