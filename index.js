@@ -4,7 +4,7 @@ appModule.config(function ($stateProvider) {
 
     var states = [
         {
-            name: 'home1',
+            name: 'home',
             url: '/',
             template: '<home />'
         },
@@ -21,17 +21,17 @@ appModule.config(function ($stateProvider) {
         {
             name: 'products',
             url: '/products',
-            template: '<products-services />'
+            template: '<products />'
         },
         {
             name: 'ups',
             url: '/ups',
-            template: '<ups-consolidation />'
+            template: '<ups />'
         },
         {
             name: 'contact',
             url: '/contact',
-            template: '<contact-us />'
+            template: '<contact />'
         }
     ];
 
