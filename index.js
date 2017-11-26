@@ -4,15 +4,15 @@ appModule.config(function ($stateProvider) {
 
     var states = [
         {
-            name: 'home',
+            name: 'home1',
             url: '/',
             template: '<home />'
         },
         {
-            name: 'home',
+            name: 'home2',
             url: '',
             template: '<home />'
-        }
+        },
         {
             name: 'about',
             url: '/about',
